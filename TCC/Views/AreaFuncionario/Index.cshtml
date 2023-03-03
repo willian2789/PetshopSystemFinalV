@@ -1,0 +1,60 @@
+﻿@model TCC.Models.ModelFuncionario
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    Layout = null;
+}
+@ViewBag.confCadastro
+@ViewBag.msgLogar
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Styles/loginCliente.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+    <title>Entrar na conta - AnimalCity</title>
+
+    <style>
+        .link-func {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+        }
+
+            .link-func a {
+                color: #960036;
+            }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="center">
+            <h1>Login</h1>
+            @using (Html.BeginForm("Index", "AreaFuncionario", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div class="txt_field">
+                    @Html.EditorFor(model => model.login, new { htmlAttributes = new { @class = "input", @required = true, @placeholder = " " } })
+                    <span></span>
+                    <label>Email</label>
+                </div>
+                <div class="txt_field">
+                    @Html.EditorFor(model => model.senha, new { htmlAttributes = new { @class = "input", @required = true, @placeholder = " ", @type = "password" } })
+                    <span></span>
+                    <label>Senha</label>
+                </div>
+                <input type="submit" value="Entrar">
+                <strong>
+                    @ViewBag.msg
+                </strong>
+
+            }
+        </div>
+    </main>
+</body>
+</html>

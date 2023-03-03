@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: #272727;
+        }
+        
+        .my-text{
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: sans-serif;
+        }
+
+        .my-text a{
+            margin-top: 1REM;
+            color: #fff;
+            padding: 1rem;
+            background: #c32343;
+            text-decoration: none;
+            border-radius: .25rem;
+            font-weight: bold;
+            width: 200px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="my-text">
+        <h1>Em breve disponivel...</h1>
+        @Html.ActionLink("Voltar", "Index", "Home")
+    </div>
+</body>
+</html>

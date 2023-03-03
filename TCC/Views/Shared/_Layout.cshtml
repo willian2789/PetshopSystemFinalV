@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/Styles/home.css" />
+    <link rel="stylesheet" href="~/Styles/index.css" />
+    <title>@ViewBag.Title - AnimalCity</title>
+    <style>
+        .img-logo{
+            width: 140px;
+        }
+    </style>
+
+    <script>
+
+        function redirectToLogin() {
+            window.location.replace("/Cliente/LoginCliente/");
+        }
+
+    </script>
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+@*<li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+<li>@Html.ActionLink("Loja", "About", "Home")</li>
+<li>@Html.ActionLink("Agendamento", "Contact", "Home")</li>
+<li>@Html.ActionLink("Contato", "Contact", "Home")</li>*@
+<body>
+    <header class="containerHeader" id="header">
+        <div class="item-containerHeader">
+            <img class="img-logo" src="~/Images/LogoCli.png"/>
+        </div>
+
+        <nav class="item-containerHeader" id="navegacao">
+            <ul>
+                <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                <li>@Html.ActionLink("Loja", "Index", "Loja")</li>
+                <li>@Html.ActionLink("Agendamento", "Index", "Agendamento")</li>
+            </ul>
+        </nav>
+
+        <div class="section-user item-containerHeader useruser">
+            <button>
+                <div class="dropdown" id="dropdown">
+                    @if (Session["logged"] != null)
+                    {
+                        <img class="user-photo" src="@ViewBag.usuImage" alt="" />
+                        <span id="name-user">@ViewBag.usuName</span>
+                        <span>
+                            <img class="icons down" src="~/Icons/down.png" />
+                        </span>
+                        <div class="dropdown-content" id="dropdown-content">
+                            <span class="item-dropdown-content">@Html.ActionLink("Meu Perfil", "MeuPerfil", "Cliente")</span>
+                            <span class="item-dropdown-content">@Html.ActionLink("Meus Pets", "MeusPets", "Cliente")</span>
+                            <span class="item-dropdown-content">@Html.ActionLink("Histórico de Compras", "ListarCompras", "Cliente")</span>
+                            <span class="item-dropdown-content">@Html.ActionLink("Sair", "Logout", "Cliente")</span>
+                        </div>
+                    }
+                    else
+                    {
+                        <img class="user-photo user-login" src="~/Icons/user.png" alt="" onclick="redirectToLogin()" />
+                        <span id="name-user">@Html.ActionLink("Entrar", "LoginCliente", "Cliente")</span>
+                    }
+                </div>
+            </button>
+
+            <button>
+                <a href="/Compra/Carrinho">
+                    <img class="icons cart" src="~/Icons/cart.png" />
+                </a>
+            </button>
+            <img class="icons-nav" id="menu" src="~/Icons/menus.png" />
+            <img class="icons-nav" id="close-menu" src="~/Icons/cancel.png" />
+        </div>
+
+    </header>
+
+    @RenderBody()
+
+    <div>
+        <footer>
+
+            <div class="container-footer">
+                <div class="redes-sociais-footer">
+                    <a href="">
+                        <img src="~/Icons/facebook.png" />
+                    </a>
+                    <a href="">
+                        <img src="~/Icons/instagram.png" />
+
+                    </a>
+                    <a href="">
+                        <img src="~/Icons/linkedin.png" />
+                    </a>
+                </div>
+                <div>
+                    @Html.ActionLink("Inicio", "Index", "Home")
+                    <span>•</span>
+                    @Html.ActionLink("Loja", "Index", "Loja")
+                    <span>•</span>
+                    <a href="">Agendamento</a>
+                </div>
+
+                <div>
+                    <a href="">Termos de uso</a>
+                    <span>•</span>
+                    <a href="">Politica de privacidade</a>
+                </div>
+
+                <div>
+                    <span class="credits">© 2022 • Created by Kauan Costa</span>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+<script>
+    
+    const header = document.getElementById("header")
+    const menu = document.getElementById("menu")
+    const navegacao = document.getElementById("navegacao")
+    const close = document.getElementById("close-menu")
+
+    const navHeight = header.offsetHeight;
+
+
+    function changeHeaderWhenScroll() {
+
+        if (window.scrollY >= navHeight) {
+
+            header.classList.add("scroll")
+        } else {
+            header.classList.remove("scroll")
+        }
+    }
+
+    window.addEventListener("scroll", () => {
+        changeHeaderWhenScroll();
+    })
+
+    menu.addEventListener("click", () => {
+        menu.style.display = "none";
+        navegacao.style.display = "block";
+        navegacao.classList.add("nav-menu-add")
+        close.style.display = "block";
+
+    })
+
+    close.addEventListener("click", () => {
+        close.style.display = "none";
+        menu.style.display = "block";
+        navegacao.style.display = "none";
+        navegacao.classList.remove("nav-menu-add")
+    })
+
+</script>
+
+</html>

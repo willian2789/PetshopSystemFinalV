@@ -1,0 +1,346 @@
+﻿@model IEnumerable<TCC.Models.ModelProduto>
+@{
+    ViewBag.Title = "Loja";
+}
+
+<link rel="stylesheet" href="~/Styles/responsividadeLoja.css" />
+
+<style>
+
+    body {
+        background-color: #f1f1f1;
+    }
+
+    .c {
+        margin-top: 5rem !important;
+    }
+
+    .containerTotal {
+        display: flex;
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+
+
+    .filter h2 {
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #carouselExampleFade {
+        margin-top: 2rem !important;
+    }
+
+
+    .imgteste {
+        object-fit: cover;
+    }
+
+    .btn:hover {
+        background: #fff;
+        filter: brightness(.8);
+    }
+
+    .teste {
+        flex-direction: column;
+        width: 100%;
+        grid-gap: 6px;
+    }
+
+    .btn-my {
+        width: 100% !important;
+        padding: 10px;
+        border: none;
+        transition: .2s ease-in-out;
+    }
+
+        .btn-my:hover {
+            filter: brightness(.9);
+        }
+
+    .first {
+        background: linear-gradient(97.78deg, #F26457 -7.58%, #960036 111.37%);
+        color: #fff;
+    }
+
+    .second {
+        border: 1px solid #272727;
+        background: transparent;
+    }
+
+    .item-select {
+        width: 250px;
+        padding: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter {
+        margin-left: 5rem !important;
+        width: 30%;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .filter-input {
+        display: flex;
+        width: 100%;
+        filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035));
+    }
+
+        .filter-input form {
+            display: flex;
+            width: 100%;
+        }
+
+    .card {
+        filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035));
+    }
+
+    .album {
+        background: #f1f1f1 !important;
+    }
+
+    .filter-input input {
+        border: none;
+        outline: none;
+        border-radius: .5rem 0rem 0rem .5rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .filter-input button {
+        width: 80px;
+        background: linear-gradient(97.78deg, #F26457 -7.58%, #960036 111.37%);
+        border-radius: 0rem .5rem .5rem 0rem;
+        border: none;
+    }
+
+        .filter-input button img {
+            width: 32px;
+            height: 32px;
+        }
+
+
+    .item-select {
+        margin-top: 2rem;
+        width: 100%;
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+        .item-select select {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            background: #f1f1f1;
+            border: none;
+            border-radius: .5rem !important;
+            margin-top: .6rem;
+            margin-bottom: 1rem;
+        }
+
+        .item-select button {
+            background: linear-gradient(97.78deg, #F26457 -7.58%, #960036 111.37%);
+            color: #fff;
+            border-radius: .5rem !important;
+            text-decoration: none;
+            font-weight: bold;
+            width: 100%;
+            border: none;
+            padding: 10px;
+        }
+
+    .card {
+        height: 475px !important;
+    }
+
+    .card-body {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .card-text {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 48px;
+        margin: 8px !important;
+    }
+
+    .text-inital {
+        display: none;
+    }
+
+    #testeBtn {
+        position: relative;
+        bottom: 0px !important;
+        height: 100%;
+        display: flex;
+        align-self: flex-end;
+        justify-self: flex-end !important;
+        grid-gap: 8px;
+        flex: 1;
+        flex-direction: column !important;
+        height: 100% !important;
+    }
+
+    .width100 {
+        width: 1000px;
+    }
+
+    #testeBtn button a {
+        display: block;
+        width: 100%;
+    }
+
+    .text-count-0{
+        width: 100%;
+        color: #272727;
+        font-size: 24px;
+    }
+
+    #testeBtn button a:hover {
+        color: initial;
+    }
+
+    #teste {
+        display: flex;
+    }
+
+    .carousel-item {
+        height: 400px;
+    }
+</style>
+
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/Images/slide2loja.png" class="bd-placeholder-img" width="100%" height="100%" />
+
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>Rações para Cachorro e Gato</h1>
+                    <p>Encontre Ração para Cachorro com os melhores preços na AnimalCity. Ração Seca, Úmida e Marcas como Premier Pet, Royal Canin e Whiskas.</p>
+                    <p><a class="btn btn-lg btn-outline-light" href="#">Veja mais</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/Images/slide1loja.png" class="bd-placeholder-img" width="100%" height="100%" />
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>As melhores coleiras.</h1>
+                    <p>Conheça as coleiras para cachorro com acabamento perfeito. Veja nossos lançamentos.</p>
+                    <p><a class="btn btn-lg btn-outline-light" href="#">Veja mais</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/Images/slide3loja.png" class="bd-placeholder-img" width="100%" height="100%" />
+
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Brinquedos e Diversão</h1>
+                    <p>Compre brinquedo para cachorro online, aproveite os descontos e as ofertas da AnimalCity!</p>
+                    <p><a class="btn btn-lg btn-outline-light" href="#">Veja mais</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="containerTotal">
+
+    <div class="text-inital">
+        <img src="~/Images/imgLojaMobile.png" />
+    </div>
+
+    <div class="filter">
+        <h2>FILTROS:</h2>
+        <div class="filter-input">
+            @using (Html.BeginForm("BuscaProduto", "Loja", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-container" }))
+            {
+                <input type="text" id="textBuca" name="textBusca" placeholder="Digite o produto desejado" />
+                <button type="submit">
+                    <img src="~/Icons/search.png" />
+                </button>
+            }
+        </div>
+
+        <div class="item-select">
+            @using (Html.BeginForm("Index", "Loja", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-container" }))
+            {
+                @Html.AntiForgeryToken()
+                <h3>Categoria</h3>
+                @Html.DropDownList("categoria", null, "Escolha uma categoria", new { htmlAttributes = new { @class = "select" } })
+                <button type="submit">FILTRAR</button>
+            }
+        </div>
+
+    </div>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4 p-4 width100">
+
+                @if (Model.Count() == 0)
+                {
+                    <h1 class="text-count-0">Nenhum produto encontrado</h1>
+                }
+                else
+                {
+                    foreach (var item in Model)
+                    {
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top imgteste" width="225px" height="225px" src="@item.image_produto" />
+
+                                <div class="card-body">
+                                    <small class="text-muted">@item.ds_categoria</small>
+                                    <p class="card-text">@item.nm_produto</p>
+                                    <h6 style="font-weight: bold; font-size: 20px">R$ @item.vl_produto</h6>
+                                    <div class="">
+                                        <div class="btn-group d-flex justify-content-between align-items-center" id="testeBtn">
+                                            <button type="button" class="btn-my first" id="btn-teste">
+                                                Adicionar Carrinho
+                                            </button>
+                                            <button type="button" class="btn-my second" id="btn-second">
+                                                @Html.ActionLink("Ver mais", "ProductDetails", new { id = item.cd_produto })
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                }
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

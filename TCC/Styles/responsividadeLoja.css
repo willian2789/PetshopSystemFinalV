@@ -1,0 +1,50 @@
+﻿
+@media(max-width: 500px){
+    #carouselExampleFade {
+        display: none;
+    }
+
+    .width100{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #myCarousel{
+        display: none !important;
+    }
+
+
+    .containerTotal {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem !important;
+    }
+
+
+    .filter {
+        width: 100% !important;
+    }
+
+    .album{
+        padding: 0 !important;
+    }
+
+
+    .text-inital {
+        width: 100%;
+        height: 50vh;
+        background: #fff;
+        margin-top: 1.5rem;
+        display: block !important;
+        text-align: center;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+
+        .text-inital img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+}

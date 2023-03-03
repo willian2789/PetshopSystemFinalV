@@ -1,0 +1,385 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main{
+        display: flex;
+    }
+
+    .dashboard {
+        height: 100vh;
+        background: linear-gradient(97.78deg, #F26457 -7.58%, #960036 111.37%);
+    }
+
+    .section-user{
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        gap: 8px;
+        margin-bottom: 2rem;
+    }
+
+    .section-user img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        padding: 3px;
+    }
+
+    .button {
+        width: 100%;
+        background: transparent;
+        text-align: left;
+        padding-left: 2rem;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+        .button a {
+            color: #fff;
+            font-weight: bold;
+            display: block !important;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+    .button:hover{
+        background: #00000020;
+    }
+
+    .button img{
+        filter: invert();
+        width: 30px;
+        height: 30px;
+    }
+
+    #selected {
+        background: #00000050;
+    }
+
+    .section-user span{
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .content {
+        flex: 4;
+        padding: 4rem;
+        background: #fff !important;
+        overflow: scroll !important;
+        height: 100vh;
+    }
+
+    .content h1{
+        margin-bottom: 4rem;
+    }
+    
+    .content h2{
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+        .content h2:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            border-radius: 10px;
+            background: linear-gradient(97.78deg, #F26457 -7.58%, #960036 111.37%);
+        }
+
+    .container-input{
+        display: flex;
+    }
+
+    .input{
+        display: flex;
+        flex-direction: column;
+        margin-right: 8px;
+    }
+
+    #email { width: 70%; margin-bottom: 2rem }
+    #senha{ width: 30%; }
+
+    #cpf{ width: 50%; margin-bottom: 2rem }
+    #numeroTel { width: 50% }
+
+    #logradouro {
+        width: 70%;
+        margin-bottom: 1rem
+    }
+    #numeroLog{ width: 30%;}
+    #complemento{
+        width: 100%;
+    }
+
+    #bairro {
+        width: 80%;
+        margin-bottom: 1rem
+    }
+    #cep{ width: 20%; }
+
+    .input input {
+        background: #EAEAEA !important;
+        border-radius: .25rem;
+        border: none;
+        color: #474747;
+        outline: none;
+        cursor: not-allowed;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .buttonEditar {
+        margin-top: 1.5REM;
+        background: transparent;
+        width: 150px;
+        border: 3px solid  #960036;
+    }
+
+        .buttonEditar a {
+            padding: 10px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-weight: bold;
+            color: #960036;
+            transition: .1s ease-in-out;
+        }
+
+        .buttonEditar a:hover {
+            color: #fff;
+            background: #960036;
+        }
+
+        .button-back{
+            margin-top: 1rem;
+        }
+
+    .menu {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 24px;
+        height: 24px;
+        display: none;
+    }
+
+    .close {
+        position: absolute;
+        z-index: 99999999999999999 !important;
+        top: 2rem;
+        right: 2rem;
+        width: 24px;
+        height: 24px;
+        opacity: 0;
+        visibility: hidden;
+        filter: invert();
+        transition: .4s ease-in-out;
+    }
+
+
+</style>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Meu Perfil - AnimalCity</title>
+    <link rel="stylesheet" href="~/Styles/loginCliente.css" />
+    <link rel="stylesheet" href="~/Styles/responsividadePerfil.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <img class="menu" id="menu" src="~/Icons/menus.png" />
+        <img class="close" id="close" src="~/Icons/cancel.png" />
+
+
+        <section class="dashboard">
+
+            <button class="button button-back">
+                <img src="~/Icons/left-arrow.png" onclick="window.location.replace('/Home/Index/')" />
+                @Html.ActionLink("Voltar", "Index", "Home")
+            </button>
+
+            <div class="section-user" id="name">
+                <img src="@ViewBag.img" alt="" />
+                <span>@ViewBag.nome</span>
+            </div>
+
+            <button class="button" id="selected">
+                <img src="~/Icons/profile.png" onclick="window.location.replace('/Cliente/MeuPerfil/')" />
+                @Html.ActionLink("Meu Perfil", "MeuPerfil", "Cliente")
+            </button>
+
+
+            <button class="button">
+                <img src="~/Icons/pet.png" onclick="window.location.replace('/Cliente/MeusPets/')" />
+                @Html.ActionLink("Meus Pets", "MeusPets", "Cliente")
+            </button>
+
+
+            <button class="button">
+                <img src="~/Icons/carrinho.png" onclick="window.location.replace('/Cliente/MinhasCompras/')" />
+                @Html.ActionLink("Minhas Compras", "ListarCompras", "Cliente")
+            </button>
+
+
+
+
+            <button class="button">
+                <img src="~/Icons/sing-out.png" onclick="window.location.replace('/Cliente/MinhasCompras/')" />
+                @Html.ActionLink("Sair", "Logout", "Cliente")
+            </button>
+
+
+
+
+        </section>
+
+        <section class="content">
+            <h1 id="title1">MEU PERFIL</h1>
+
+
+            <div class="item-container">
+                <h2>Dados da conta</h2>
+                <div class="container-input">
+
+                    <div class="input" id="email">
+                        <label>Email</label>
+                        <input type="text" readonly value="@ViewBag.email" />
+                    </div>
+
+                    <div class="input" id="senha">
+                        <label>Senha</label>
+                        <input type="password" readonly value="@ViewBag.senha" />
+                    </div>
+
+                </div>
+
+                <div class="item-container">
+                    <h2>Informações pessoais</h2>
+                    <div class="container-input">
+
+                        <div class="input" id="cpf">
+                            <label>CPF</label>
+                            <input type="text" readonly value="@ViewBag.cpf" />
+                        </div>
+
+                        <div class="input" id="numeroTel">
+                            <label>Número de Telefone</label>
+                            <input type="text" readonly value="@ViewBag.tel" />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="item-container">
+                    <h2>Endereço</h2>
+                    <div class="container-input">
+
+                        <div class="input" id="logradouro">
+                            <label>Rua</label>
+                            <input type="text" readonly value="@ViewBag.nmLog" />
+                        </div>
+
+                        <div class="input" id="numeroLog">
+                            <label>Número</label>
+                            <input type="text" readonly value="@ViewBag.noLog" />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container-input">
+
+                    <div class="input" id="bairro">
+                        <label>Bairro</label>
+                        <input type="text" readonly value="@ViewBag.bairro" />
+                    </div>
+
+                    <div class="input" id="cep">
+                        <label>CEP</label>
+                        <input type="text" readonly value="@ViewBag.cep" />
+                    </div>
+                </div>
+
+                <div class="container-input">
+                    <div class="input" id="complemento">
+                        <label>Complemento</label>
+                        <input type="text" readonly value="@ViewBag.comp" />
+                    </div>
+                </div>
+
+                <button class="buttonEditar">
+                    @Html.ActionLink("Editar Perfil", "EditarPerfil", "Cliente")
+                </button>
+
+
+        </section>
+
+
+    </main>
+
+    <script>
+        const menu = document.getElementById("menu")
+        const close = document.getElementById("close")
+        const dashboard = document.querySelector(".dashboard")
+        const content = document.querySelector(".content")
+
+        menu.addEventListener("click", () => {
+            dashboard.classList.add("show");
+            close.style.opacity = "1"
+            close.style.visibility = "visible"
+        })
+
+        close.addEventListener("click", () => {
+            dashboard.classList.remove("show");
+            close.style.opacity = "0"
+            close.style.visibility = "hidden"
+        })
+
+
+        content.addEventListener("scroll", () => {
+            if (content.scrollTop > 20) {
+                menu.style.opacity = "0"
+            } else {
+                menu.style.opacity = "1"
+            }
+        })
+
+
+     
+
+    </script>
+</body>
+</html>

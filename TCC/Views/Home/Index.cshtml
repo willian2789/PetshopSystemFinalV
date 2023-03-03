@@ -1,0 +1,113 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+
+        .T a {
+            display: block !important;
+            width: 100%;
+            height: 100%;
+            padding: .5rem 2rem !important;
+        }
+    .T a:hover {
+        color: #fff;
+    }
+
+    .margin-this-class{
+        margin: 4rem 2rem !important;
+    }
+
+    .testetest{
+        margin: 0px 2rem;
+    }
+</style>
+
+<link rel="stylesheet" href="~/Styles/home.css" />
+
+<main>
+    <section class="home-initial">
+        <div class="home-initial-text">
+            <h1>Bem vindo a AnimalCity</h1>
+            <span>Vendemos os melhores produtos e agendamos os melhores serviços para seu pet</span>
+            <button id="btnConhecer">Conhecer mais</button>
+        </div>
+        <img id="dog-home" class="dog-home" src="~/Images/dog-home.png" alt="Dog Home" />
+    </section>
+
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="~/Images/slide1.png" class="d-block w-100 img" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="~/Images/slide2.png" class="d-block w-100 img" alt="...">
+            </div>
+        </div>
+
+    </div>
+
+    <section class="home-shop">
+        <h2>Diversos produtos. Faça sua compra.</h2>
+        <button class="T">@Html.ActionLink("COMPRAR AGORA", "Index", "Loja")</button>
+    </section>
+
+    <div class="p-4 p-md-5 mb-4 text-white  bg-dark  margin-this-class">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Sobre nós</h1>
+            <p class="lead my-3">Somos uma empresa criada para vendas de produtos online. Estamos no mercado desde 2015 juntando cliente ao redor do mundo</p>
+            <p class="lead mb-0"><a href="#" class="text-white fw-bold">Contiunar lendo...</a></p>
+        </div>
+    </div>
+
+    <div class="row mb-2 testetest">
+        <div class="col-md-6">
+            <div class="row g-0 border  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">Loja física</strong>
+                    <h3 class="mb-0">Nossos</h3>
+                    <div class="mb-1 text-muted">Nov 12</div>
+                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">Design</strong>
+                    <h3 class="mb-0">Post title</h3>
+                    <div class="mb-1 text-muted">Nov 11</div>
+                    <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="container-servicos">
+        <img id="dog-servicoes" src="~/Images/dog-servicoes.png" />
+        <div class="content-servicos">
+            <h2>
+                SERVIÇOS
+            </h2>
+            <span>BANHO E TOSA</span>
+            <button>
+                MARCAR HORÁRIO
+            </button>
+        </div>
+    </section>
+
+
+</main>
+

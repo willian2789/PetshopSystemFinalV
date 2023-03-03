@@ -1,0 +1,127 @@
+﻿@model TCC.Models.ModelPet
+
+@{
+    Layout = null;
+    //string val = DropDownList1.SelectedValue.ToString();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Styles/cadastroPet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Editar pet - AnimalCity</title>
+    <script>
+        function redirectToLogin() {
+            window.location.replace("/Cliente/MeusPets/");
+        }
+    </script>
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <main>
+        <div class="background" />
+
+        @using (Html.BeginForm("EditarPet", "Cliente", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-container" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <h2>Editar pet</h2>
+
+            <div class="form-grid">
+
+                <div id="image" class="imagem">
+                    <img src="~/Icons/icon-image.png" alt="Icone de câmera">
+                    <input type="file" name="file" id="file" />
+                </div>
+
+                <div id="name" class="form">
+                    @Html.EditorFor(model => model.nomePet, new { htmlAttributes = new { @class = "input", @required = true, @placeholder = " ", @Value = ViewBag.nomePet } })
+                    @Html.ValidationMessageFor(model => model.nomePet, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.nomePet, new { @class = "label" })
+                </div>
+
+                @*<div id="especie" class="form">
+            @Html.DropDownList("especie", null, null, new { htmlAttributes = new { @required = true } })
+            @Html.ValidationMessageFor(model => model.especiePet, "", new { @class = "text-danger" })
+        </div>*@
+
+
+                <div id="especie" class="form">
+
+            <select name="slEspecie">
+                <option value="@ViewBag.codEsp">@ViewBag.nmEsp</option>
+                <option value="1">Cachorro</option>
+                <option value="2">Gato</option>
+            </select>
+        </div>
+
+                <div id="raca" class="form">
+                    @Html.EditorFor(model => model.racaPet, new { htmlAttributes = new { @class = "input", @required = true, @type = "text", @placeholder = " ", @Value = ViewBag.racaPet } })
+                    @Html.ValidationMessageFor(model => model.racaPet, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.racaPet, new { @class = "label" })
+                </div>
+
+                <div id="sexoContainer" class="form">
+                    <select name="sexo" id="sexo" class="select" required>
+                        <option value="" disabled hidden>Escolha o gênero</option>
+                        @if (ViewBag.sexo == "Macho")
+                        {
+                            <option value="Macho" selected>Macho</option>
+                            <option value="Fêmea">Fêmea</option>
+                        }
+                        else
+                        {
+                            <option value="Macho">Macho</option>
+                            <option value="Fêmea" selected>Fêmea</option>
+                        }
+                    </select>
+                </div>
+
+                <div id="porteContainer" class="form">
+                    <select name="porte" id="porte" class="select" required>
+                        <option value="" disabled hidden>Escolha o tamanho</option>
+
+                        @if (ViewBag.porte == "Pequeno")
+                        {
+                            <option value="Pequeno" selected>Pequeno</option>
+                            <option value="Médio">Médio</option>
+                            <option value="Grande">Grande</option>
+                        }
+                        else if (ViewBag.porte == "Médio")
+                        {
+                            <option value="Pequeno">Pequeno</option>
+                            <option value="Médio" selected>Médio</option>
+                            <option value="Grande">Grande</option>
+                        }
+                        else
+                        {
+                            <option value="Pequeno">Pequeno</option>
+                            <option value="Médio">Médio</option>
+                            <option value="Grande" selected>Grande</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <strong id="msg" class="@ViewBag.color">
+                @ViewBag.msg
+            </strong>
+
+            <div class="buttons">
+                <input id="btnEnviar" type="submit" value="Editar" class="btn btn-default" />
+                <input id="btnVoltar" type="button" value="Voltar" onclick="redirectToLogin()" class="btn btn-default" />
+            </div>
+        }
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,307 @@
+﻿
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sams-serif;
+    background: #F3F3F3;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background: linear-gradient(115.4deg, #F26457 -8.89%, #960036 98.4%);
+}
+
+.form-container {
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 6%;
+    width: 80%;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035);
+}
+
+    .form-container h2 {
+        color: #474747;
+        margin-bottom: 1rem;
+    }
+
+.form {
+    position: relative;
+    height: 3rem;
+}
+
+.form-grid {
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-gap: 16px;
+    grid-template-areas:
+        "image image name name"
+        "email senha confSenha confSenha"
+        " checkBoxCPF . . ."
+        "cpf cnpj tel ."
+        "checkbox . . ."
+        "cep nomeLog nomeLog numLog"
+        "nmBairro nmBairro dsComp dsComp";
+}
+
+#image {
+    grid-area: image;
+}
+
+#name {
+    grid-area: name;
+}
+
+#checkboxCPF {
+    grid-area: checkBoxCPF;
+}
+
+#email {
+    grid-area: email;
+}
+
+#senha {
+    grid-area: senha;
+}
+
+#confSenha {
+    grid-area: confSenha;
+}
+
+#tel {
+    grid-area: tel;
+}
+
+#cpf{
+    grid-area: cpf;
+}
+
+#cnpj {
+    grid-area: cnpj;
+    grid-column: 1 / 2;
+    display: none;
+}
+
+#checkbox {
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+    grid-area: checkbox;
+}
+
+#checkbox span {
+    color: #474747;
+    font-size: 13px;
+}
+
+#checkboxCPF {
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+    grid-area: checkBoxCPF;
+}
+
+    #checkboxCPF span {
+        color: #474747;
+        font-size: 13px;
+    }
+
+#cep {
+    grid-area: cep;
+}
+
+#nomeLog {
+    grid-area: nomeLog;
+}
+
+#numLog {
+    grid-area: numLog;
+}
+
+#nmBairro {
+    grid-area: nmBairro;
+}
+
+#dsComp {
+    grid-area: dsComp;
+}
+
+.form-container strong {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #DE3737;
+}
+
+strong.success {
+    color: #33E47A;
+}
+
+
+.imagem {
+    display: flex;
+    gap: 8px;
+    border-radius: .5rem;
+    align-items: center;
+    background: #EAEAEA;
+    padding: .5rem;
+}
+
+    .imagem img{
+        margin-left: .5rem;
+        width: 25px;
+        height: 25px;
+    }
+
+    .imagem input{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+.input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: .25rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: #272727;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+}
+
+.label {
+    position: absolute;
+    font-size: 14px;
+    left: 1rem;
+    top: 0.9rem;
+    padding: 0 0.3rem;
+    color: #c4c4c4;
+    cursor: text;
+    border-radius: 20px;
+    transition: top 200ms ease, left 200ms ease, font-size 200ms ease;
+    background-color: #fff;
+    cursor: auto;
+}
+
+.input:read-only {
+    background: #EAEAEA;
+    border: none;
+    color: #474747;
+    cursor: not-allowed;
+}
+
+.input:read-only ~ .form{
+    cursor: not-allowed;
+}
+
+    .input:read-only ~ .label {
+        background: #EAEAEA !important;
+        cursor: not-allowed !important;
+        color: #B4B4B4 !important;
+        position: absolute !important;
+        font-size: 14px !important;
+        left: 1rem !important;
+        top: 0.9rem !important;
+    }
+
+
+.input:focus, input:hover {
+    border-color: #2790CB;
+}
+
+    .input:focus ~ .label {
+        color: #2790CB;
+        top: -0.5rem;
+        font-size: 0.8rem;
+        left: 0.8rem;
+    }
+
+    .input:hover ~ .label {
+        color: #2790CB;
+        top: -0.5rem;
+        font-size: 0.8rem;
+        left: 0.8rem;
+    }
+
+.label:hover {
+    color: #2790CB;
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+}
+
+    .buttons {
+        display: flex;
+        grid-gap: 8px;
+    }
+
+#btnEnviar, #btnVoltar {
+
+    margin-top: 1.5rem;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s ease-in-out;
+}
+
+#btnEnviar:hover, #btnVoltar:hover {
+    opacity: 0.9;
+}
+
+
+    #btnEnviar {
+    background: #33E47A;
+    color: #fff;
+}
+
+#btnVoltar {
+    color: #474747;
+}
+
+
+.input:not(.input:placeholder-shown).input:not(:focus) ~ .label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+}
+
+@media(max-width: 900px){
+    .form-grid {
+        grid-template-areas:
+            "image image image image"
+            "name name name name"
+            "email email email email"
+            "senha senha senha senha"
+            "confSenha confSenha confSenha confSenha"
+            "cpf cpf cpf cpf"
+            "tel tel tel tel"
+            "checkbox checkbox checkbox checkbox"
+            "cep cep cep cep"
+            "nomeLog nomeLog nomeLog nomeLog"
+            "numLog numLog numLog numLog"
+            "nmBairro nmBairro nmBairro nmBairro"
+            "dsComp dsComp dsComp dsComp";
+    }
+}

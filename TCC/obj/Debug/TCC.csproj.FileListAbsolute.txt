@@ -1,0 +1,575 @@
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\TCC.dll.config
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\TCC.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\TCC.pdb
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\csc.exe
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\csc.exe.config
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\csc.rsp
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\csi.exe
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\csi.exe.config
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\csi.rsp
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.AppContext.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Console.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.IO.Compression.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Net.Http.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.ValueTuple.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\vbc.exe
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\vbc.exe.config
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\vbc.rsp
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\VBCSCompiler.exe
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Antlr3.Runtime.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Newtonsoft.Json.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Helpers.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Mvc.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Optimization.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Razor.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.WebPages.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\WebGrease.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Helpers.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Mvc.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Optimization.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.Razor.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.WebPages.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Newtonsoft.Json.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Antlr3.Runtime.pdb
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\obj\Debug\TCC.csproj.AssemblyReference.cache
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\obj\Debug\TCC.csproj.CopyComplete
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\obj\Debug\TCC.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\MySql.Data.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Google.Protobuf.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\ZstdNet.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\BouncyCastle.Crypto.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\Ubiety.Dns.Core.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Memory.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Buffers.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\K4os.Compression.LZ4.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\K4os.Hash.xxHash.dll
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\MySql.Data.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\TCC.dll.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\TCC.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\TCC.pdb
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\csc.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\csc.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\csc.rsp
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\csi.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\csi.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\csi.rsp
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.AppContext.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Console.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.IO.Compression.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Net.Http.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.ValueTuple.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\vbc.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\vbc.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\vbc.rsp
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\VBCSCompiler.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Antlr3.Runtime.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Newtonsoft.Json.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Helpers.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Mvc.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Optimization.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Razor.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.WebPages.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\WebGrease.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Google.Protobuf.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\ZstdNet.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\BouncyCastle.Crypto.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Ubiety.Dns.Core.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Memory.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Buffers.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\K4os.Compression.LZ4.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\K4os.Hash.xxHash.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\MySql.Data.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Helpers.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Mvc.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Optimization.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.Razor.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.WebPages.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Newtonsoft.Json.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Antlr3.Runtime.pdb
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\obj\Debug\TCC.csprojAssemblyReference.cache
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\obj\Debug\TCC.csproj.CopyComplete
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\obj\Debug\TCC.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\3dsmod\Desktop\KauanDSaTarde\TCC\TCC\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alexia\Downloads\TCC\TCC\obj\Debug\TCC.csproj.AssemblyReference.cache
+C:\Users\Alexia\Downloads\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\Alexia\Downloads\TCC\TCC\obj\Debug\TCC.dll
+C:\Users\Alexia\Downloads\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\Alexia\Downloads\TCC\TCC\bin\TCC.dll.config
+C:\Users\Alexia\Downloads\TCC\TCC\bin\TCC.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\TCC.pdb
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\csc.exe
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\csc.exe.config
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\csc.rsp
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\csi.exe
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\csi.exe.config
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\csi.rsp
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.AppContext.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Console.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Net.Http.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\vbc.exe
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\vbc.exe.config
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\vbc.rsp
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alexia\Downloads\TCC\TCC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Antlr3.Runtime.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Newtonsoft.Json.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Helpers.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Mvc.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Optimization.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Razor.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.WebPages.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\WebGrease.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Google.Protobuf.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\ZstdNet.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\BouncyCastle.Crypto.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Ubiety.Dns.Core.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Memory.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Buffers.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\K4os.Compression.LZ4.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\K4os.Hash.xxHash.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\MySql.Data.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Helpers.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Mvc.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Optimization.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.Razor.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.WebPages.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Newtonsoft.Json.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Antlr3.Runtime.pdb
+C:\Users\Alexia\Downloads\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alexia\Downloads\TCC\TCC\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alexia\Downloads\TCC\TCC\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alexia\Downloads\TCC\TCC\obj\Debug\TCC.csproj.CopyComplete
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\TCC.dll.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\TCC.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\TCC.pdb
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\csc.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\csc.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\csc.rsp
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\csi.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\csi.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\csi.rsp
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.AppContext.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Console.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Net.Http.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\vbc.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\vbc.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\vbc.rsp
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Antlr3.Runtime.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Newtonsoft.Json.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Helpers.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Mvc.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Optimization.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Razor.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.WebPages.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\WebGrease.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Google.Protobuf.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\ZstdNet.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\BouncyCastle.Crypto.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Ubiety.Dns.Core.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Memory.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Buffers.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\K4os.Compression.LZ4.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\K4os.Hash.xxHash.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\MySql.Data.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Helpers.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Mvc.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Optimization.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.Razor.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.WebPages.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Newtonsoft.Json.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Antlr3.Runtime.pdb
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\obj\Debug\TCC.csproj.AssemblyReference.cache
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\obj\Debug\TCC.csproj.CopyComplete
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\obj\Debug\TCC.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\TCC.dll.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\TCC.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\TCC.pdb
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\csc.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\csc.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\csc.rsp
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\csi.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\csi.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\csi.rsp
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.AppContext.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Console.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Net.Http.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\vbc.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\vbc.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\vbc.rsp
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Antlr3.Runtime.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Newtonsoft.Json.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Helpers.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Mvc.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Optimization.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Razor.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.WebPages.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\WebGrease.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Google.Protobuf.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\BouncyCastle.Crypto.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Ubiety.Dns.Core.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Memory.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Buffers.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Helpers.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Mvc.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Optimization.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.Razor.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.WebPages.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Newtonsoft.Json.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Antlr3.Runtime.pdb
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\obj\Debug\TCC.csproj.CopyComplete
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\obj\Debug\TCC.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\TCC.dll.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\TCC.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\TCC.pdb
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\csc.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\csc.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\csc.rsp
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\csi.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\csi.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\csi.rsp
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.AppContext.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Console.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.IO.Compression.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Net.Http.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.ValueTuple.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\vbc.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\vbc.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\vbc.rsp
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\VBCSCompiler.exe
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Antlr3.Runtime.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Newtonsoft.Json.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Helpers.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Mvc.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Optimization.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Razor.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.WebPages.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\WebGrease.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Google.Protobuf.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\BouncyCastle.Crypto.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Ubiety.Dns.Core.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Memory.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Buffers.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Helpers.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Mvc.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Optimization.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.Razor.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.WebPages.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Newtonsoft.Json.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Antlr3.Runtime.pdb
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\obj\Debug\TCC.csprojAssemblyReference.cache
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\obj\Debug\TCC.csproj.CopyComplete
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\obj\Debug\TCC.dll
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\bin\System.Numerics.Vectors.dll
+C:\Users\Alexia\OneDrive - Etec Centro Paula Souza\Desktop\3° Modulo curso DS\projetos tcc\TCC (1)\TCC\TCC\obj\Debug\TCC.csproj.AssemblyReference.cache
+C:\Users\kauan\OneDrive\Área de Trabalho\TCC (1)\TCC\TCC\bin\System.Numerics.Vectors.dll

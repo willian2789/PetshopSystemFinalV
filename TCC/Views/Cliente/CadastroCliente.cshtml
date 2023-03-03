@@ -1,0 +1,289 @@
+﻿@model TCC.Models.ModelFuncionario
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Styles/cadastroCliente.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Criar uma nova conta - AnimalCity</title>
+    <script>
+        function redirectToLogin() {
+            window.location.replace("/Cliente/LoginCliente/");
+        }
+    </script>
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <main>
+        <div class="background" />
+
+        @using (Html.BeginForm("CadastroCliente", "Cliente", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-container" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <h2>Criar nova conta</h2>
+
+            <div class="form-grid">
+
+                <div id="image" class="imagem">
+                    <img src="~/Icons/icon-image.png" alt="Icone de câmera">
+                    <input type="file" name="file" id="file" value="~/Images/userAnonymous.png"/>
+                </div>
+
+                <div id="name" class="form">
+                    @Html.EditorFor(model => model.nmCliente, new { htmlAttributes = new { @class = "input", @required = true, @placeholder = " " } })
+                    @Html.ValidationMessageFor(model => model.nmCliente, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.nmCliente, new { @class = "label" })
+                </div>
+
+                <div id="email" class="form">
+                    @Html.EditorFor(model => model.emailCliente, new { htmlAttributes = new { @class = "input", @required = true, @type = "email", @placeholder = " " } })
+                    @Html.ValidationMessageFor(model => model.emailCliente, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.emailCliente, new { @class = "label" })
+                </div>
+
+                <div id="senha" class="form">
+                    @Html.EditorFor(model => model.senha, new { htmlAttributes = new { @class = "input", @required = true, @type = "password", @placeholder = " " } })
+                    @Html.ValidationMessageFor(model => model.senha, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.senha, new { @class = "label" })
+                </div>
+
+                <div id="confSenha" class="form">
+                    @Html.EditorFor(model => model.confSenha, new { htmlAttributes = new { @class = "input", @required = true, @type = "password", @placeholder = " " } })
+                    @Html.ValidationMessageFor(model => model.confSenha, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.confSenha, new { @class = "label" })
+                </div>
+
+                <div id="cpf" class="form">
+                    @Html.EditorFor(model => model.cpf_cliente, new { htmlAttributes = new { @class = "input", @id="inputCpf", @required = true, @placeholder = " ", minlength = "14", maxlength = "14" } })
+                    @Html.ValidationMessageFor(model => model.cpf_cliente, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.cpf_cliente, new { @class = "label" })
+                </div>
+
+                <div id="tel" class="form">
+                    @Html.EditorFor(model => model.noTelefone, new { htmlAttributes = new { @class = "input", @required = true, @id = "phone", @placeholder = " ", minlength = "15", maxlength = "15" } })
+                    @Html.ValidationMessageFor(model => model.noTelefone, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.noTelefone, new { @class = "label" })
+                </div>
+
+                <div id="checkbox">
+                    <input class="checkbox" type="checkbox" value="Não sei meu cep" />
+                    <span>Editar endereço</span>
+                </div>
+
+                <div id="cep" class="form">
+                    @Html.EditorFor(model => model.noCep, new { htmlAttributes = new { @class = "input", @id = "cepInput", @required = true, @placeholder = " ", maxlength = "9", minlength = "9" } })
+                    @Html.ValidationMessageFor(model => model.noCep, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.noCep, new { @class = "label" })
+                </div>
+
+                <div id="nomeLog" class="form">
+                    @Html.EditorFor(model => model.nmlogradouro, new { htmlAttributes = new { @id = "rua", @class = "input", @readonly = true, @required = true, @placeholder = " " } })
+                    @Html.ValidationMessageFor(model => model.nmlogradouro, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.nmlogradouro, new { @class = "label", @id = "nomeLogHtml" })
+                </div>
+
+                <div id="numLog" class="form">
+                    @Html.EditorFor(model => model.noLogradouro, new { htmlAttributes = new { @class = "input", @required = true, @placeholder = " ", maxlength = "4" } })
+                    @Html.ValidationMessageFor(model => model.noLogradouro, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.noLogradouro, new { @class = "label" })
+                </div>
+
+                <div id="nmBairro" class="form">
+                    @Html.EditorFor(model => model.nmBairro, new { htmlAttributes = new { @id = "bairro", @class = "input", @readonly = true, @required = true, @placeholder = " " } })
+                    @Html.ValidationMessageFor(model => model.nmBairro, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.nmBairro, new { @class = "label", @id = "bairroHtml" })
+                </div>
+
+                <div id="dsComp" class="form">
+                    @Html.EditorFor(model => model.dsComplemento, new { htmlAttributes = new { @class = "input", @placeholder = " " } })
+                    @Html.ValidationMessageFor(model => model.dsComplemento, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.dsComplemento, new { @class = "label" })
+                </div>
+            </div>
+
+            <strong id="msg" class="@ViewBag.color">
+                @ViewBag.msg
+            </strong>
+
+            <div class="buttons">
+                <input id="btnEnviar" type="submit" value="Criar conta" class="btn btn-default" />
+                <input id="btnVoltar" type="button" value="Voltar" onclick="redirectToLogin()" class="btn btn-default" />
+            </div>
+        }
+    </main>
+
+    <script>
+        const inputTel = document.getElementById("phone");
+        const inputCep = document.getElementById("cepInput");
+
+        inputTel.addEventListener('keypress', () => {
+
+            let inputTelLength = inputTel.value.length;
+
+            if (inputTelLength == 0) {
+                inputTel.value += "("
+            }
+            if (inputTelLength == 3) {
+                inputTel.value += ") "
+            }
+            if (inputTelLength == 10){
+                inputTel.value += "-"
+
+            }
+        })
+        const nomeLogHtml = document.getElementById("nomeLogHtml");
+        const bairroHtml = document.getElementById("bairroHtml");
+
+        const checkboxHtmlcpf = document.getElementById("checkboxVerificaCPF");
+        const checkboxHtml = document.querySelector(".checkbox");
+
+        const rua = document.getElementById("rua");
+        const bairro = document.getElementById("bairro");
+
+        const cpf = document.getElementById("cpf");
+        const inputCpf = document.getElementById("inputCpf");
+
+
+
+
+        const valueInput = inputCep.value;
+        const msgErro = document.getElementById("msg");
+
+
+
+        inputCep.addEventListener('keypress', () => {
+            let inputCepLength = inputCep.value.length;
+
+            if (inputCepLength == 5) {
+                inputCep.value += "-"
+            }
+
+        })
+
+        inputCpf.addEventListener("keypress", () => {
+            inputCpfLength = inputCpf.value.length
+
+            if (inputCpfLength == 3 || inputCpfLength == 7) {
+                inputCpf.value += "."
+            }
+            if (inputCpfLength == 11) {
+                inputCpf.value += "-"
+            }
+
+        })
+
+
+        inputCep.addEventListener("keyup", () => {
+            let inputCepLength = inputCep.value.length;
+
+           if (inputCepLength < 9) {
+                rua.value = "";
+                bairro.value = "";
+                nomeLogHtml.style.display = "inline";
+                bairroHtml.style.display = "inline"
+            }
+
+            if (inputCepLength == 9) {
+                msgErro.textContent = "";
+                handleCep();
+            }
+        })
+
+        async function handleCep() {
+            const valueInput = await inputCep.value;
+            const valueInputNumber = await valueInput.replace('-', '');
+            const response = await fetch(`https://viacep.com.br/ws/${valueInputNumber}/json/`)
+            const data = await response.json();
+            if (data.erro) {
+                msgErro.textContent = "Cep Inválido";
+                rua.value = "";
+                bairro.value = "";
+
+                return;
+
+            } else{
+                nomeLogHtml.style.display = "none";
+                bairroHtml.style.display = "none"
+                rua.value = data.logradouro;
+                bairro.value = data.bairro;
+            }
+        }
+
+
+        checkboxHtml.addEventListener("click", () => {
+
+            if (checkboxHtml.checked) {
+                rua.readOnly = false;
+                bairro.readOnly = false;
+                nomeLogHtml.style.display = "inline";
+                bairroHtml.style.display = "inline";
+
+            }else{
+                rua.readOnly = true;
+                bairro.readOnly = true;
+            }
+
+        })
+
+        checkboxHtml.addEventListener("click", () => {
+
+            if (checkboxHtml.checked) {
+                rua.readOnly = false;
+                bairro.readOnly = false;
+                nomeLogHtml.style.display = "inline";
+                bairroHtml.style.display = "inline";
+
+            } else {
+                rua.readOnly = true;
+                bairro.readOnly = true;
+            }
+        });
+
+
+        checkboxHtml.addEventListener("change", () => {
+            if (!checkboxHtml.checked && rua.readOnly && bairro.readOnly && rua.value != "" && bairro.value != "") {
+                nomeLogHtml.style.display = "none";
+                bairroHtml.style.display = "none";
+            } else {
+                nomeLogHtml.style.display = "inline";
+                bairroHtml.style.display = "inline";
+            }
+        })
+
+
+        checkboxHtmlcpf.addEventListener("click", () => {
+            if (checkboxHtmlcpf.checked) {
+                inputCnpj.required = true;
+                cpf.style.display = "none"
+                cnpj.style.display = "block"
+                inputCpf.required = false;
+            } else {
+                inputCpf.required = true;
+                cpf.style.display = "block"
+                cnpj.style.display = "none"
+                inputCnpj.required = false;
+
+            }
+        })
+
+
+
+    </script>
+
+</body>
+</html>
+
+

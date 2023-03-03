@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Detalhes do Produto - AnimalCity";
+}
+
+<style>
+    * {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .containerProduct {
+        padding: 10rem !important;
+        display: flex;
+    }
+
+    .content-product {
+        padding: 2rem !important;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+        .content-product h2 {
+            margin-bottom: .5rem !important;
+            margin-top: .5rem !important;
+        }
+
+        .content-product span {
+            color: #474747;
+        }
+
+        .content-product strong {
+            margin-top: .5rem !important;
+            font-size: 24px;
+        }
+
+        .content-product a {
+            text-align: center;
+            width: 400px;
+            display: block;
+            padding: 10px !important;
+            border: solid 1px #272727;
+            margin-bottom: .5rem !important;
+        }
+
+        .content-product strong {
+            margin-bottom: .5rem !important;
+        }
+
+    .add-cart {
+        background: #272727;
+        color: #fff !important;
+    }
+
+    .content-product a:hover{
+        color: initial;
+    }
+
+
+    .content-product p {
+        color: #474747;
+    }
+</style>
+
+<div class="containerProduct">
+    <img src="@ViewBag.imageProd" />
+    <div class="content-product">
+        <span>@ViewBag.dsCat</span>
+        <h2>@ViewBag.nmProd - @ViewBag.marcaProd</h2>
+        <p>@ViewBag.dsProd</p>
+        <strong>R$ @ViewBag.precoProd</strong>
+        <a class="add-cart" href="">ADICIONAR AO CARRINHO</a>
+        @Html.ActionLink("VOLTAR À LOJA ", "Index", "Loja")
+    </div>
+</div>

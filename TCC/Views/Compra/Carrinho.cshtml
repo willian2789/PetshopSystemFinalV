@@ -1,0 +1,266 @@
+﻿@model TCC.Models.ModelCompra
+@{
+    ViewBag.Title = "Carrinho";
+}
+
+
+<style>
+    .container-my{
+        padding: 6rem 2rem;
+        min-height: 100vh;
+    }
+
+    .table-my {
+        width: 100%;
+        margin: 0 auto !important;
+
+    }
+
+    .items-text{
+        width: 100% !important;
+        display: flex;
+        background: #f1f1f1;
+        padding: 20px !important;
+        text-align: left !important;
+    }
+
+    .items-text td{
+        width: 250px !important;
+    }
+
+    .cab-my {
+        background: #474747;
+        color: #fff;
+    }
+
+    .remover a {
+        background: red;
+        color: #fff;
+        width: 100px;
+        border-radius: .25rem;
+        padding: 10px;
+    }
+
+    .pagamento select {
+        margin-top: 1rem !important;
+        padding: 10px;
+        border: 2px solid #c4c4c4;
+        border-radius: .25rem;
+        margin-bottom: 1rem !important;
+    }
+
+    hr {
+        height: 2px;
+        width: 100%;
+        background: #C4C4C4;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .links-items{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .first-ch a {
+        display: block;
+        padding: 10px !important;
+        width: 305px;
+        text-align: center;
+        color: #272727;
+        border: 1px solid #272727;
+        background: transparent;
+    }
+
+    .second-ch input {
+        display: block;
+        border:none !important;
+        padding: 10px !important;
+        width: 305px;
+        text-align: center;
+        color: #fff;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+        background: linear-gradient(115.4deg, #F26457 -8.89%, #960036 98.4%);
+    }
+
+    #qtVenda {
+        background: transparent !important;
+        border: none !important;
+        outline: none !important;
+        width: 50px !important;
+        text-align:center !important;
+    }
+
+    .vl {
+        padding-bottom: 10px !important;
+        border-bottom: 3px solid #c4c4c4;
+        margin-bottom: 2rem !important;
+        display: inline-block !important;
+    }
+
+</style>
+<div class="container-my">
+    <h2>Carrinho</h2>
+
+    <table class="table-my ">
+        <tr class="items-text cab-my">
+            <td>Produto</td>
+            <td>Quantidade</td>
+            <td>Valor Unitário</td>
+            <td>Valor Total</td>
+            <td></td>
+        </tr>
+
+        @foreach (var item in Model.ItensPedido)
+        {
+
+            <tr class="items-text ">
+                <td>@item.nm_produto</td>
+                <td>
+                    @Html.ActionLink("  -  ", "RetirarCarrinho", new { id = item.cd_produto, pre = item.vl_unitario }, null)
+
+                    <input value="@item.qt_venda" name="qt" id="qtVenda" />
+
+
+                    @Html.ActionLink("  +  ", "AdicionarCarrinho", new { id = item.cd_produto, pre = item.vl_unitario }, null)
+                </td>
+                <td>@item.vl_unitario</td>
+                <td>@item.vl_parcial</td>
+                <td class="remover">@Html.ActionLink("Remover", "ExcluirItem", new { id = item.ItemPedidoID }, null)</td>
+            </tr>
+        }
+
+    </table>
+
+    <hr />
+
+    <h3 class="vl"> Valor Total: @Model.vlTotal</h3>
+
+    <div class="links-items">
+        <div class="first-ch">
+            @Html.ActionLink("Continuar Comprando", "Index", "Loja")
+        </div>
+
+        @using (Html.BeginForm("SalvarCarrinho", "Compra", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="pagamento">
+                @Html.DropDownList("pagamento", "Escolha a forma de pagamento")
+            </div>
+
+
+            <div class="second-ch">
+                <input type="submit" name="btn" value="Finalizar Compra" />
+            </div>
+        }
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

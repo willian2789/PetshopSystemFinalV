@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+
+<style>
+
+    body {
+        background:#DE3737;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+        flex-direction: column;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    a{
+        text-align: center;
+        background: #fff;
+        text-decoration: none;
+        padding: 10px;
+        width: 150px;
+    }
+
+
+
+</style>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sem acesso - AnimalCity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+       <h1>
+           Você não tem acesso a essa página, faça o Login primeiro
+       </h1> 
+       @Html.ActionLink("Fazer Login", "LoginCliente", "Cliente")
+</body>
+</html>

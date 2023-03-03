@@ -1,0 +1,415 @@
+﻿@model IEnumerable<TCC.Models.ModelPet>
+
+@{
+    Layout = null;
+}
+
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+    }
+
+    .dashboard {
+        height: 100vh;
+        background: linear-gradient(97.78deg, #F26457 -7.58%, #960036 111.37%);
+    }
+
+    .section-user {
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        gap: 8px;
+        margin-bottom: 2rem;
+    }
+
+        .section-user img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            padding: 3px;
+        }
+
+    .button {
+        width: 100%;
+        background: transparent;
+        text-align: left;
+        padding-left: 2rem;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+        .button a {
+            color: #fff;
+            font-weight: bold;
+            display: block !important;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .button:hover {
+            background: #00000020;
+        }
+
+        .button img {
+            filter: invert();
+            width: 30px;
+            height: 30px;
+        }
+
+    #selected {
+        background: #00000050;
+    }
+
+    .section-user span {
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .content {
+        flex: 4;
+        padding: 4rem;
+        background: #fff !important;
+        overflow: scroll !important;
+        height: 100vh;
+    }
+
+        .content h1 {
+            margin-bottom: 2rem;
+            color: #272727;
+        }
+
+    .buttonEditar {
+        margin-top: 1.5REM;
+        background: transparent;
+        width: 150px;
+        border: 3px solid #960036;
+    }
+
+        .buttonEditar a {
+            padding: 10px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-weight: bold;
+            color: #960036;
+            transition: .1s ease-in-out;
+        }
+
+            .buttonEditar a:hover {
+                color: #fff;
+                background: #960036;
+            }
+
+    .button-back {
+        margin-top: 1rem;
+    }
+
+    .button-add {
+        background: #33E47A;
+        border: none;
+        transition: .2s ease-in-out;
+    }
+
+        .button-add:hover {
+            filter: brightness(90%);
+        }
+
+        .button-add a {
+            display: block !important;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            width: 300px;
+            padding: 1rem !important;
+        }
+
+    .item-dog {
+        max-width: 350px;
+        background: #E9E9E9;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802)
+    }
+
+    .item-dog-img {
+        position: relative;
+    }
+
+        .item-dog-img img {
+            width: 100%;
+            object-fit: cover;
+            height: 200px;
+        }
+
+        .item-dog-img span {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: #fff;
+            padding: 10px !important;
+            background: #272727;
+            font-weight: bold;
+        }
+
+    .item-dog-content {
+        padding: 2rem;
+    }
+
+        .item-dog-content strong {
+            color: #272727;
+        }
+
+        .item-dog-content span {
+            display: flex;
+            grid-gap: 5px;
+        }
+
+    .item-dog-buttons {
+        display: flex;
+        width: 100%;
+    }
+
+        .item-dog-buttons button {
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            text-align: center;
+            position: relative;
+        }
+
+            .item-dog-buttons button:hover {
+                filter: brightness(90%);
+            }
+
+            .item-dog-buttons button img{
+                z-index: 0 !important;
+            }
+
+            .item-dog-buttons button a {
+                z-index: 1 !important;
+                display: block !important;
+                width: 100%;
+                height: 100%;
+                padding: 2rem !important;
+            }
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
+    }
+
+    #last-item-content {
+        margin-bottom: 0px !important;
+    }
+
+    .item-dog-buttons button img {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .button-edit {
+        background: #2790CB;
+    }
+
+    .button-excluir {
+        background: #DE3737;
+    }
+
+    hr{
+        background: #f1f1f1;
+        height: 3px;
+        border: none;
+        border-radius: 8px;
+        width: 95%;
+        margin: 2rem;
+    }
+
+
+    .menu {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 24px;
+        height: 24px;
+        display: none;
+    }
+
+    .close {
+        position: absolute;
+        z-index: 99999999999999999 !important;
+        top: 2rem;
+        right: 2rem;
+        width: 24px;
+        height: 24px;
+        opacity: 0;
+        visibility: hidden;
+        filter: invert();
+        transition: .4s ease-in-out;
+    }
+    
+
+</style>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Meu Perfil - AnimalCity</title>
+    <link rel="stylesheet" href="~/Styles/loginCliente.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="~/Styles/responsividadePerfil.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <img class="menu" id="menu" src="~/Icons/menus.png" />
+        <img class="close" id="close" src="~/Icons/cancel.png" />
+
+        <section class="dashboard">
+
+            <button class="button button-back">
+                <img src="~/Icons/left-arrow.png" onclick="window.location.replace('/Home/Index/')" />
+                @Html.ActionLink("Voltar", "Index", "Home")
+            </button>
+
+            <div class="section-user" id="name">
+                <img src="@ViewBag.img" alt="" />
+                <span>@ViewBag.nome</span>
+            </div>
+
+            <button class="button">
+                <img src="~/Icons/profile.png" onclick="window.location.replace('/Cliente/MeuPerfil/')" />
+                @Html.ActionLink("Meu Perfil", "MeuPerfil", "Cliente")
+            </button>
+
+
+            <button class="button" id="selected">
+                <img src="~/Icons/pet.png" onclick="window.location.replace('/Cliente/MeusPets/')" />
+                @Html.ActionLink("Meus Pets", "MeusPets", "Cliente")
+            </button>
+
+
+            <button class="button">
+                <img src="~/Icons/carrinho.png" onclick="window.location.replace('/Cliente/MinhasCompras/')" />
+                @Html.ActionLink("Minhas Compras", "ListarCompras", "Cliente")
+            </button>
+
+
+            <button class="button">
+                <img src="~/Icons/sing-out.png" onclick="window.location.replace('/Cliente/MinhasCompras/')" />
+                @Html.ActionLink("Sair", "Logout", "Cliente")
+            </button>
+
+        </section>
+
+        <section class="content">
+            <h1 id="title1">MEUS PETS</h1>
+
+            <div class="grid-container">
+
+                <section class="container-grid">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="item-dog">
+                            <div class="item-dog-img">
+                                <img src="@item.imagePet" />
+                                <span>@item.nomePet</span>
+                            </div>
+
+                            <div class="item-dog-content">
+                                <span><strong>Espécie:</strong>@item.especiePet</span>
+                                <span><strong>Raça:</strong>@item.racaPet</span>
+                                <span><strong>Porte:</strong>@item.portePet</span>
+                                <span><strong id="last-item-content">Sexo:</strong>@item.sexoPet</span>
+                            </div>
+
+                            <div class="item-dog-buttons">
+                                <button class="button-edit">
+                                    <img src="~/Icons/editar.png" />
+                                    @Html.ActionLink(" ", "EditarPet", new { id = item.codPet })
+                                </button>
+
+                                <button class="button-excluir">
+                                    @Html.ActionLink(" ", "ApagarPet", new { id = item.codPet })
+                                    <img src="~/Icons/apagar.png" />
+                                </button>
+
+                            </div>
+
+                        </div>
+                    }
+
+                </section>
+
+                <hr />
+
+                <button class="button-add">
+                    @Html.ActionLink("Adicionar", "AdicionarPet", "Cliente")
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+        const menu = document.getElementById("menu")
+        const close = document.getElementById("close")
+        const dashboard = document.querySelector(".dashboard")
+        const content = document.querySelector(".content")
+
+        menu.addEventListener("click", () => {
+            dashboard.classList.add("show");
+            close.style.opacity = "1"
+            close.style.visibility = "visible"
+        })
+
+        close.addEventListener("click", () => {
+            dashboard.classList.remove("show");
+            close.style.opacity = "0"
+            close.style.visibility = "hidden"
+        })
+
+
+        content.addEventListener("scroll", () => {
+            if (content.scrollTop > 20) {
+                menu.style.opacity = "0"
+            } else {
+                menu.style.opacity = "1"
+            }
+        })
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿@{ ViewBag.Title = "confVenda"; }
+
+<style>
+    #containerConf {
+        color: #fff;
+        width: 100%;
+        display: flex;
+        background: #33E47A;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+        #containerConf a {
+            display: block !important;
+            text-align: center;
+            background-color: #fff !important;
+            font-weight: bold !important;
+            width: 150px !important;
+            color: #33E47A !important;
+            padding: 1rem;
+            border-radius: .25rem;
+        }
+</style>
+
+
+<div id="containerConf">
+    <h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#fff" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="172 104 113.3 160 84 132" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline><circle cx="128" cy="128" r="96" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></circle></svg>
+        <span>Compra efetuada com sucesso</span>
+    </h2>
+    <br />
+    @Html.ActionLink("Voltar", "Index", "Loja")
+</div>

@@ -75,7 +75,7 @@ from tbl_pet inner join tbl_especie
 on tbl_pet.cd_especie = tbl_especie.cd_especie inner join tbl_cliente
 on tbl_pet.cd_cliente = tbl_cliente.cd_cliente;
 
-drop view pet_view;
+
 
 select * from pet_view where cd_cliente = 1  order by cd_pet desc;
 select * from pet_view where cd_pet = 13;
@@ -116,7 +116,7 @@ login varchar(50) unique not null,
 senha char(6) not null,
 image_func varchar(300)
 );
-drop table tbl_funcionario;
+
 
 insert into tbl_funcionario values (default,'Alexia','admin','Lexi@gmail.com','123456',1);
 select * from tbl_funcionario;
@@ -163,7 +163,7 @@ select * from tbl_carrinho;
 select * from tbl_compra;
 
 
-drop table tbl_produto;
+
 select * from tbl_produto;
 create table tbl_Produto(
 cd_produto int primary key auto_increment,
@@ -185,7 +185,7 @@ alter table tbl_produto modify vl_produto varchar(20);
 insert into tbl_Produto values (default,1,1,'Bolinha Verde','https://github.com/kauan777.png','Art Injet',10, 15, 'Bolinha de borracha para seu pet passar a tarde toda brincando');
 
 select * from tbl_categoria;
-drop table tbl_categoria;
+
 create table tbl_categoria(
 cd_categoria int primary key auto_increment,
 ds_categoria varchar(50) not null
@@ -236,7 +236,7 @@ select
 select * from vw_carrinho where cd_compra = 1;
 
 -- =======================[ COMPRA ]============================
-drop table tbl_compra;
+
 create table tbl_Compra(
 cd_Compra int primary key auto_increment,
 cd_Pagamento int,
@@ -273,7 +273,7 @@ select * from compra_view;
 
 -- ==================[ AGENDAMENTO ]========================
 select * from tbl_agendamento;
-drop table tbl_agendamento;
+
 create table tbl_agendamento(
 cd_agendamento int primary key auto_increment,
 cd_cliente int,
@@ -289,7 +289,7 @@ foreign key (cd_pet) references tbl_Pet(cd_pet)
 insert into tbl_agendamento values(default,1,1,15,"2022/10/08",200.00,'banho bao');
 insert into tbl_agendamento_servicos values(2,2);
 
-drop table tbl_agendamento_servicos;
+
 create table tbl_agendamento_servicos(
 cd_servicos int,
 cd_agendamento int,

@@ -47,7 +47,6 @@ select * from tbl_cliente;
 select * from tbl_pj;
 
 -- ===============[ PET ] ========================
-drop table tbl_pet;
 create table tbl_Pet(
 cd_pet int primary key auto_increment,
 nm_pet varchar(30) not null,
@@ -122,7 +121,6 @@ insert into tbl_funcionario values (default,'Alexia','admin','Lexi@gmail.com','1
 select * from tbl_funcionario;
 
 -- ===============[ FORNECEDOR ] ========================
-drop table tbl_fornecedor;
 create table tbl_fornecedor(
 cd_fornecedor int primary key auto_increment,
 nm_fornecedor varchar(80) not null,
@@ -157,7 +155,7 @@ select cd_produto,
 select * from vw_produto;
 select * from vw_produto where nm_produto like '%bolinha%' order by cd_produto desc;
 
-delete from tbl_produto;
+
 
 select * from tbl_carrinho;
 select * from tbl_compra;
@@ -181,7 +179,7 @@ foreign key (cd_categoria) references tbl_categoria(cd_categoria)
 
 select * from tbl_produto;
 
-alter table tbl_produto modify vl_produto varchar(20);
+
 insert into tbl_Produto values (default,1,1,'Bolinha Verde','https://github.com/kauan777.png','Art Injet',10, 15, 'Bolinha de borracha para seu pet passar a tarde toda brincando');
 
 select * from tbl_categoria;
@@ -247,7 +245,7 @@ foreign key (cd_cliente) references tbl_cliente(cd_cliente),
 foreign key (cd_Pagamento) references tbl_pagamento(cd_pagamento)
 );
 
-ALTER TABLE tbl_compra add qt_Produto varchar(20);
+
 
 select * from tbl_compra;
 select * from tbl_pagamento;
@@ -328,7 +326,7 @@ insert into tbl_servicos values(default,300.00,'tosa');
 
 
 select * from tbl_pagamento;
-drop table tbl_pagamento;
+
 create table tbl_pagamento(
 cd_pagamento int primary key auto_increment,
 ds_pagamento varchar(50) not null
